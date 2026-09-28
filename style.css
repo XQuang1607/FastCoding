@@ -1,11 +1,9 @@
-/* ===== 1. RESET ===== */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* ===== 2. BIẾN DÙNG CHUNG ===== */
 :root {
     --color-navy: #12142D;
     --color-navy-dark: #0E0F24;
@@ -17,7 +15,6 @@
     --max-width: 1300px;
 }
 
-/* ===== 3. GLOBAL ===== */
 body {
     font-family: var(--font-main);
     color: var(--color-navy);
@@ -49,9 +46,7 @@ img {
     border-radius: 6px;
 }
 
-/* ===================================================== */
-/* ===== 4. HEADER ===== */
-/* ===================================================== */
+
 
 .topbar {
     background-color: var(--color-navy-dark);
@@ -137,10 +132,6 @@ img {
     border-radius: 6px;
     font-weight: 600;
 }
-
-/* ===================================================== */
-/* ===== 5. HERO ===== */
-/* ===================================================== */
 
 .hero {
     display: grid;
@@ -299,10 +290,6 @@ img {
     justify-content: center;
 }
 
-/* ===================================================== */
-/* ===== 6. COMMERCIAL ===== */
-/* ===================================================== */
-
 .commercial {
     max-width: var(--max-width);
     margin: 0 auto;
@@ -374,10 +361,6 @@ img {
 .commercial-card.featured p {
     color: rgba(255,255,255,0.85);
 }
-
-/* ===================================================== */
-/* ===== 7. DREAM LIVING SPACES ===== */
-/* ===================================================== */
 
 .living {
     max-width: var(--max-width);
@@ -485,10 +468,6 @@ img {
     color: var(--color-text-gray);
 }
 
-/* ===================================================== */
-/* ===== SHARED SECTION HELPERS ===== */
-/* ===================================================== */
-
 .section-head {
     text-align: center;
     max-width: 600px;
@@ -527,10 +506,6 @@ img {
     text-align: center;
     margin-top: 50px;
 }
-
-/* ===================================================== */
-/* ===== 8. TODAY SELLS PROPERTIES ===== */
-/* ===================================================== */
 
 .today-sell {
     max-width: var(--max-width);
@@ -597,10 +572,6 @@ img {
     border-radius: 4px;
 }
 
-/* ===================================================== */
-/* ===== 9. SERVICES ===== */
-/* ===================================================== */
-
 .services {
     background-color: var(--color-bg-light);
     padding: 100px 60px;
@@ -652,10 +623,6 @@ img {
     align-items: center;
     gap: 8px;
 }
-
-/* ===================================================== */
-/* ===== 10. FEATURED PROPERTY ===== */
-/* ===================================================== */
 
 .featured {
     max-width: var(--max-width);
@@ -758,10 +725,6 @@ img {
     background-color: var(--color-orange);
     color: var(--color-white);
 }
-
-/* ===================================================== */
-/* ===== 11. UNIT SHOWCASE ===== */
-/* ===================================================== */
 
 .unit-showcase {
     position: relative;
@@ -868,10 +831,6 @@ img {
     font-size: 1.3rem;
 }
 
-/* ===================================================== */
-/* ===== 12. TESTIMONIAL ===== */
-/* ===================================================== */
-
 .testimonial {
     max-width: var(--max-width);
     margin: 0 auto;
@@ -955,10 +914,6 @@ img {
     border: none;
 }
 
-/* ===================================================== */
-/* ===== 13. WE BUILD MORE PROJECTS ===== */
-/* ===================================================== */
-
 .projects {
     max-width: var(--max-width);
     margin: 0 auto;
@@ -1039,10 +994,6 @@ img {
     cursor: pointer;
 }
 
-/* ===================================================== */
-/* ===== 14. FROM OUR BLOG ===== */
-/* ===================================================== */
-
 .blog {
     max-width: var(--max-width);
     margin: 0 auto;
@@ -1103,10 +1054,6 @@ img {
     color: var(--color-orange);
     font-weight: 600;
 }
-
-/* ===================================================== */
-/* ===== 15. CONTACT ===== */
-/* ===================================================== */
 
 .contact {
     max-width: var(--max-width);
@@ -1237,10 +1184,6 @@ img {
     cursor: pointer;
 }
 
-/* ===================================================== */
-/* ===== 16. FOOTER ===== */
-/* ===================================================== */
-
 .site-footer {
     background-color: var(--color-navy);
     color: #A6A9BE;
@@ -1358,10 +1301,6 @@ img {
     height: 8px;
     background-color: var(--color-orange);
 }
-
-/* ===================================================== */
-/* ===== 7. RESPONSIVE ===== */
-/* ===================================================== */
 
 @media (max-width: 992px) {
     .topbar,
